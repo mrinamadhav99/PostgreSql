@@ -1,0 +1,59 @@
+
+1. SELECT * FROM payment WHERE amount > 2.0;
+
+
+2. SELECT * FROM payment WHERE amount < 3.0;
+
+
+3. SELECT * FROM payment WHERE customer_id >= 500;
+
+
+4. SELECT * FROM payment WHERE customer_id <= 10;
+
+
+5. SELECT * FROM customer WHERE last_name <> 'Smith';
+
+
+6. SELECT * FROM customer WHERE last_name = 'Smith';
+
+
+7. SELECT * FROM customer WHERE NOT last_name = 'Smith';
+
+
+8. SELECT * FROM customer WHERE last_name = 'Smith' AND store_id = '1';
+
+
+9. SELECT * FROM customer WHERE last_name = 'Smith' OR store_id = '2';
+
+
+10. SELECT * FROM customer WHERE last_name = 'Russell';
+
+
+11. SELECT * FROM customer WHERE last_name <> 'Russell';
+
+
+12. SELECT * FROM customer WHERE customer_id >= 501 AND customer_id <= 503;
+
+
+13. SELECT * FROM customer WHERE customer_id < 1 OR customer_id > 500;
+
+
+14. SELECT last_name FROM customer WHERE last_name LIKE 'L%';
+
+
+15. SELECT last_name FROM customer WHERE last_name NOT LIKE 'L%';
+
+
+16. SELECT * FROM customer WHERE last_name IS NULL;
+
+
+17. SELECT * FROM customer WHERE last_name IS NOT NULL;
+
+
+18. SELECT * FROM customer LIMIT 10;
+
+
+19. SELECT * FROM customer LIMIT 10 OFFSET 5;
+
+
+20. SELECT * FROM customer WHERE last_name IS NOT NULL;
